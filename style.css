@@ -1,0 +1,128 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+#siteHeader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 60px;
+    background-color: rgba(5, 139, 216, 0.5);
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    backdrop-filter: blur(4px);
+    
+    }
+
+#siteHeader img{
+    display: flex;
+    max-height: 50px;
+    align-items: center;
+    
+   
+}
+
+#siteHeader a {
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+#siteHeader a:hover{
+    text-shadow: 0px 0 5px #00edff;
+    font-size: large;
+    transition: 0.3s;
+
+    }
+    
+#sectionBanner{
+    padding: 40px;
+    }
+
+#sectionBanner img {
+padding: 0px;
+margin: 0px;
+    width:100%;
+}
+
+.container_principal{
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+#progresso{
+    text-align: center;
+}
+
+#progresso h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#progresso h2{
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #09ff00;
+    color: rgb(5, 0, 0);
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 3px 1px 5px rgba(19, 148, 2, 0.5);
+}
+#videos_obra{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.video{
+    
+    padding: 20px;
+}
+
+.img_projeto img{
+    width: 1200px;
+    padding: 50px;
+}
+
+#container_parabens{
+    display: flex;
+    align-items: center;
+}
+
+#parabens{
+
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+footer{
+    
+    background-color: rgba(5, 139, 216, 0.5);
+    padding: 10px;
+    
+    
+}
+
+footer .info{
+    display: flex;
+    flex-direction: row;
+    height: 5px;
+  
+    justify-content: center;
+    
+   
+}

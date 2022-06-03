@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <title>Projeto Vencedor</title>
+</head>
+
+<body>
+
+    <header id="siteHeader">
+        <img src="">
+        <a href="index.html"> MEU PROJETO</a>
+        <a href="progresso.html"> PROGRESSO DA OBRA</a>
+        <a href="obra_ao_vivo.html"> OBRA AO VIVO</a>
+        <a href="#footer">CONTATO</a>
+    </header>
+
+
+    <section id="sectionBanner">
+        <img src="" alt="">
+    </section>
+    <div class="conteiner_principal">
+        <form action="" onsubmit="event.preventDefault(); mudaDiv();">
+            <input type="number" id="n1">
+            <input class="btn" type="submit" value="Calcular">
+        </form>
+        <div id="progresso">
+            <h1>PROGRESSO DA SUA OBRA</h1>
+            <h2>Sua Obra Está Dentro do Prazo</h2>
+            <div>
+                <img  id="img_prog1" src="img/imagem progresso1.jpg" alt="">
+            </div>
+
+        </div>
+        <div id="container_parabens">
+           <video id="parabens" src=""autoplay></video>
+        </div>
+
+    </div>
+
+
+
+    <footer id="rodape">
+        <div class="info">
+            <div>
+                <a
+                    href="https://api.whatsapp.com/send?phone=5514997792544&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20as%20maquininhas%20de%20cart%C3%A3o%20sem%20taxas%20e%20com%20desconto!"><img
+                        src="icon/icons8-whatsapp-48.png" alt=""></a>
+            </div>
+            <div>
+                <a href="14997792544"><img src="icon/icons8-chamar-masculino-100-removebg-preview.png" alt=""></a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="copy">
+            Rodolfo Delfino de Oliveira &copy; 2022
+        </div>
+
+
+    </footer>
+
+    <script>
+        var num1 = window.document.getElementById('n1')
+ var n1 = Number(num1.value)
+ 
+
+ function mudaDiv(){
+ var num1 = window.document.getElementById('n1')
+ var num2 = window.document.getElementById('n2')
+ var n1 = Number(num1.value)
+
+ if(n1 == 1){
+    var img = document.querySelector("#img_prog1");
+ img.setAttribute('src', 'img/imagem progresso2.jpg');
+    
+ }if(n1 == 2){
+    var img = document.querySelector("#img_prog1");
+ img.setAttribute('src', 'img/imagem progresso3.jpg');
+    
+ }if(n1 == 3){
+    var img = document.querySelector("#img_prog1");
+ img.setAttribute('src', 'img/imagem progresso4.jpg');
+    
+ }if(n1 == 4){
+    var img = document.querySelector("#img_prog1");
+ img.setAttribute('src', 'img/imagem progresso5.jpg');
+    
+ }if(n1 == 5){
+    var img = document.querySelector("#img_prog1");
+ img.setAttribute('src', 'img/imagem progresso6.jpg');
+    
+ }if(n1 == 5){
+    var img = document.querySelector("#img_prog1");
+ img.setAttribute('src', 'img/imagem progresso7.jpg');
+    
+ }if(n1 == 7){
+    var img = document.querySelector("#img_prog1");
+ img.setAttribute('src', 'img/imagem progresso8.jpg');
+    
+ }if(n1 == 8){
+    var img = document.querySelector("#img_prog1");
+ img.setAttribute('src', 'img/imagem progresso9.jpg');
+    
+ }if(n1 == 9){
+    var img = document.querySelector("#img_prog1");
+ img.setAttribute('src', 'img/imagem progresso10.jpg');
+    
+ }if(n1 == 10){
+    var img = document.querySelector("#img_prog1");
+ img.setAttribute('src', 'img/imagem progresso11.jpg');
+    
+ }if(n1 == 11){
+    var img = document.querySelector("#img_prog1");
+ img.setAttribute('src', 'img/imagem progresso12.jpg');
+    
+ }if(n1 == 12){
+    var img = document.querySelector("#img_prog13");
+ img.setAttribute('src', 'img/imagem progresso13.jpg');
+    
+ }if(n1 == 13){
+    var img = document.querySelector("#img_prog1");
+ img.setAttribute('src', 'img/imagem progresso14.jpg');
+    
+ }if(n1 == 14){
+    var img = document.querySelector("#img_prog1");
+ img.setAttribute('src', 'img/imagem progresso15.jpg');
+    
+ }if(n1 == 15){
+    var img = document.querySelector("#img_prog1");
+ img.setAttribute('src', 'img/imagem progresso16.jpg');
+    
+ }if(n1 == 16){
+    var img = document.querySelector("#img_prog1");
+ img.setAttribute('src', 'img/imagem progresso17.jpg');
+    
+ }if(n1 == 17){
+    var img = document.querySelector("#img_prog1");
+ img.setAttribute('src', 'img/imagem progresso18.jpg');
+
+ var img = document.querySelector("#parabens");
+ img.setAttribute('src', 'img/i can.mp4');
+    
+ 
+    
+ }
+
+ 
+    
+     // container1.innerHTML = `o resultado é ${res} `;
+     // container1.style.width="200px";
+     // container1.style.margin="10px";
+     // // container1.style.backgroundColor="#3fb8af";
+     // container1.style.color="white";
+     // container1.style.padding="80px";
+     // container1.style.alignItens="center";
+     // container1.style.textAlign="center";
+     // container1.style.border="1px solid black";
+     // container1.style.borderRadius="5%";
+     // container1.style.boxShadow="4px 4px 18px rgba(0,0,0,0.5)";
+     // // container1.style.backgroundImage= "url("img\ t1 chip.jpg ")";
+     // document.getElementById("container1").src = "img\ t1 chip.jpg";
+ }
+        
+    </script>
+</body>
+
+
+</html>
